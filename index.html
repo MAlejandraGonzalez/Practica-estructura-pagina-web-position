@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maquetado pagina web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <header class="superior">
+        <div class="logo">
+            <img src="Programacion orientada.jpg" alt="imagen programacion">
+
+        </div>
+        <nav class="menu">
+            <ul class="opciones">
+                <li><a href=" ">Carreras</a></li>
+                <li><a href=" ">Cursos</a></li>
+                <li><a href=" ">Comunidad</a></li>
+                <li><a href=" ">Blog</a></li>
+                <li><a href=" ">Estudiantes</a></li>
+            </ul> 
+            
+            </nav>
+
+
+    </header>
+    <section class="slider">
+        <h1>Programacion orientada a objetos ¿Que es y para que sirve?</h1>
+        <p>La programacion Orientada a objetos <strong>un paradigma de la programacion</strong>,lo que se define como un modelo de sistemas de software
+        </p>
+
+        <p>La base de este paradigma se centra en las clases y los objetos.Esto quiere decir que separa y estructura el codigo en fragmentos mas simples y reutilizables
+            como lo son las clases y ns permite instanciar en objetos
+        </p>
+    </section>
+    <section>
+        <h1>POR QUE ESTE PARADIGMA ES TAN IMPORTANTE?</h1>
+        <ul>
+            <li>La OPP nos permite reutilizar, organizar y mantener el codigo</li>
+            <li>Nos ayuda a no repetir el codigo y permite que varios devs puedan interactuar , modificar y utilizar el mismo codigo</li>
+            <li>Evita comportamientos inadecuados de las entidades y modelos del sistema mediante la encapsulacion y la abstraccion</li>
+            <li>Ayuda a que el codigo sea reutilizable</li>
+        </ul>
+    </section>
+    <section>
+        <h1>LOS CUATRO PILARES DE LA OPP</h1> 
+        <H2>abstraccion</H2>
+        <P>La abstracción tiene dos puntos. Lo primero es que nos permite ocultar del usuario el funcionamiento interno de nuestro sistema. Por ejemplo exponer en una GUI (Interfaz Gráfica) un botón de comprar con lo que entiende que puede comprar su producto con un click en ese botón sin saber qué sucede de fondo en nuestro sistema. También nos permite abstraer de los desarrolladores las funcionalidades internas de la clase. Permitiendo que los desarrolladores utilicen y manipulen la clase sin necesidad de entender qué sucede internamente en la misma.</P>
+        <H2>Herencia</H2>
+        <p>La herencia es la cualidad que nos permite reutilizar nuestro código y modelos plasmados en forma de clase implementando subclases. Las nuevas clases heredaran (como en la herencia genética) atributos y métodos de las clases padres o superclases. Este tipo de implementación de clases y super clases nos ayuda a crear sistemas escalables y con multiplicidad de opciones. Podemos ver esta característica en sistemas de ecommerce en los que tenemos diferentes tipos de usuarios(superclase) en los que unos se definen como compradores y otros como vendedores; también así en los productos y sus categorías.</p>
+        <h2>Polimorfismo</h2>
+        <p>El polimorfismo nos permite modificar ligeramente los métodos y atributos de las subclases previamente definidas en la superclase.
+
+            Para entender mejor el polimorfismo podemos entenderlo bajo el aspecto de un sistema de usuarios en una plataforma de streaming de películas. Podemos tener usuarios con diferentes características pero un modelo similar, como es el caso de usuarios menores de edad a los que se les asignan cierto contenido que pueden ver dependiendo de su edad. Sin embargo el resto de los métodos y atributos de la clase Usuario las comparte con otros usuarios.</p>
+         <h2>Encapsulacion</h2>
+         <p>El proceso de encapsulación nos permite proteger los datos y la integridad de nuestro sistema mediante la privacidad de los mismos.
+
+            Existen diferentes tipos de encapsulación dependiendo del lenguaje. En casos como Typescript contamos con la posibilidad de encapsular los datos en el scope de la clase (private) y las subclases (protected). Como también existe la posibilidad de encapsular la modificación de datos permitiendo que la instancia de la misma solo pueda leer el dato (readonly) pero no modificarlo.
+            
+            Con estas posibilidades podemos proteger los procesos de nuestro sistema tanto de los usuarios como de otros desarrolladores definiendo las posibilidades acceso de cada atributo y método.</p>
+
+    </section>
+    <section>
+        <h1>Beneficios de la Programacion Orientada a Objetos</h1>
+        <ul>
+            <li>✅ Nos permite reutilizar y evitar la duplicación de código mediante una arquitectura basada en clases. Convierte desarrollos complejos en <strong> estructuras simples y reproducibles</strong>.</li>
+            <li>✅ Nos permite trabajar en equipo gracias al encapsulamiento y la abstracción, ya que minimiza la posibilidad de duplicar funciones cuando varias personas trabajan sobre un mismo objeto al mismo tiempo y hace las entidades de nuestro sistema más entendibles para las personas que trabajan sobre él.</li>
+            <li>✅ Al estar la clase bien estructurada permite la <strong> corrección de errores </strong>en varios lugares del código ya que si un método provoca errores en nuestro software, sólo dedicaremos nuestro tiempo en arreglar ese método y no varias líneas de código.</li>
+            <li>✅ <strong>Protege la información</strong> a través de la encapsulación, ya que solo se puede acceder a los datos del objeto a través de propiedades y métodos privados. La abstracción también nos permite construir sistemas más complejos y de una forma más sencilla y organizada.</li>
+        </ul>
+    </section>
+    <section>
+        <h2>Ejemplos y Aplicacion</h2>
+        <p>Para ver mas en profundidad este tema, te recomendamos el siguiente video donde realizamos<strong>varios ejemplos utilizando Typescripty este paradigama de programacion orientada a objetos</strong></p>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/tTPeP5dVuA4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+
+    <footer>
+
+        <h3>Programar es para todos</h3>
+        <h2>Seguimos en redes sociales</h2>
+        <ul class="final">
+            <li><a href="">Instagram</a></li>
+            <li><a href="">YouTube</a></li>
+            <li><a href="">Linkedin</a></li>
+            <li><a href="">Spotify</a></li>
+
+
+        </ul>
+    </footer>
+
+
+
+</div>
+   
+
+
+   
+    
+</body>
+</html>
